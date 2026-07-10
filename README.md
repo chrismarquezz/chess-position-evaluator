@@ -1,4 +1,4 @@
-# ChessProb
+# Chess Position Evaluator
 
 A neural network that predicts win/draw/loss probabilities from a raw chess board position, trained end-to-end on elite human games with no engine features.
 
@@ -6,9 +6,9 @@ A neural network that predicts win/draw/loss probabilities from a raw chess boar
 
 ## Overview
 
-ChessProb learns to output calibrated outcome probabilities directly from board position, with no Stockfish evaluation or hand-engineered features in the loop. It is trained exclusively on classical games between 2400+ Elo players, so it models realistic human outcomes rather than objective engine assessments.
+Chess Position Evaluator learns to output calibrated outcome probabilities directly from board position, with no Stockfish evaluation or hand-engineered features in the loop. It is trained exclusively on classical games between 2400+ Elo players, so it models realistic human outcomes rather than objective engine assessments.
 
-This distinguishes it from engine-based approaches: Stockfish computes the theoretically best-play evaluation; ChessProb estimates the probability distribution over *actual* game results — a different and complementary signal, especially useful for understanding how humans handle a position.
+This distinguishes it from engine-based approaches: Stockfish computes the theoretically best-play evaluation; Chess Position Evaluator estimates the probability distribution over *actual* game results — a different and complementary signal, especially useful for understanding how humans handle a position.
 
 ---
 
