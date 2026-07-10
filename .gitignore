@@ -1,0 +1,41 @@
+# --- virtual environment ---
+.venv/
+
+# --- large data files (TWIC downloads, encoded tensors, position CSV) ---
+*.pgn
+*.zip
+*.bin
+*.npy
+*.npz
+*.csv
+
+# --- encoded tensor store (entire folder) ---
+data/
+
+# --- model checkpoints ---
+checkpoints/
+*.pt
+
+# --- frontend build artifacts ---
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# --- generated outputs ---
+calibration.png
+nohup.out
+
+# --- logs ---
+*.log
+train.log
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
